@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import styles from "./Homepage.module.css";
 
 function Homepage() {
   return (
-    <main>
+    <main className={styles.homepage}>
       <section>
         <h1>
           ElectroWorld
@@ -15,7 +16,9 @@ function Homepage() {
           soluta, molestiae nihil laborum, placeat debitis, laboriosam at fuga
           perspiciatis?
         </h2>
-        <Link to="/Product">View Products</Link>
+        <Link to="/Product" className="cta">
+          View Products
+        </Link>
       </section>
     </main>
   );
