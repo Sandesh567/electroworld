@@ -1,6 +1,7 @@
 # React + Vite
 
 #Create a Vite project:
+
 npm create vite@latest my-electro-world --template react
 cd my-electro-world
 npm install
